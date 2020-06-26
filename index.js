@@ -61,19 +61,21 @@ const questions = [
 
 // }
 // console.log("hello")
-inquirer.prompt(questions).then(function (userAnswers) {
-    fs.writeFile(filename, JSON.stringify(userAnswers, null, 4), function (err) {
-        if (err) {
-            return console.log(err);
-        }
-        console.log("Success! File was written to goodReadMe.md");
-    })
-});
+
 
 
 
     // function to initialize program
-    function init() {
+function init() {
+    inquirer.prompt(questions).then(function (userAnswers) {
+        var markdown = generateMarkdown(userAnswers)
+        fs.writeFile(filename, markdown), function (err) {
+            if (err) {
+                return console.log(err);
+            }
+            console.log("Success! File was written to goodReadMe.md");
+        })
+    });
 
     }
 
