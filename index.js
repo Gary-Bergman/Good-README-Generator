@@ -1,11 +1,16 @@
 // Global Variables
 var inquirer = require("inquirer");
 var fs = require("fs");
-// var genMarkdown = require("utils/generateMarkdown.js")
+var generateMarkdown = require("./utils/generateMarkdown.js");
 var filename = "goodReadMe.md";
 
 // array of questions for user
 const questions = [
+    {
+        type: "input",
+        message: "What is your project's title?",
+        name: "title"
+    },
     {
         type: "input",
         message: "What is your GitHub username?",
@@ -65,21 +70,22 @@ const questions = [
 
 
 
-    // function to initialize program
+// function to initialize program
 function init() {
     inquirer.prompt(questions).then(function (userAnswers) {
         var markdown = generateMarkdown(userAnswers)
-        fs.writeFile(filename, markdown), function (err) {
+        fs.writeFile(filename, markdown, function (err) {
             if (err) {
                 return console.log(err);
             }
             console.log("Success! File was written to goodReadMe.md");
         })
-    });
+    })
+}
 
-    }
+// function call to initialize program
+init();
 
-    // function call to initialize program
-    init();
+
 
 
