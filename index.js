@@ -23,28 +23,23 @@ const questions = [
     },
     {
         type: "input",
-        message: "How would you like to describe your project?",
+        message: "Please enter a brief description of your project",
         name: "description"
     },
-    // {
-    //     type: "input",
-    //     message: "What should be included in your table of contents?",
-    //     name: "tableOfContents"
-    // },
     {
         type: "input",
-        message: "How should the user run installations?",
+        message: "What command should be run to install dependencies?",
         default: "npm i",
         name: "install"
     },
     {
         type: "input",
-        message: "How is this project used?",
+        message: "What does the user need to know about using the repo?",
         name: "usage"
     },
     {
         type: "input",
-        message: "Who contributed to this project?",
+        message: "What does the user need to know about contributing to the repo?",
         name: "contribution"
     },
     {
@@ -56,18 +51,11 @@ const questions = [
     {
         type: "list",
         message: "How is this project licensed?",
-        choices: ["APM:	/apm/l/:packageName", "B", "C", "D"],
+        default: "( Use arrow keys)",
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
         name: "license"
     },
 ];
-
-// function to write README file
-// function writeToFile(fileName, data) {
-
-// }
-// console.log("hello")
-
-
 
 
 // function to initialize program
