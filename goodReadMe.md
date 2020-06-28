@@ -1,10 +1,10 @@
-# Cool Project
+# 
 
-  [![GitHub license]](https://img.shields.io/apm/l/pack)
+  ![APACHE 2.0 license](https://img.shields.io/badge/license-APACHE 2.0-blue)
 
   ## Description
 
-  Very cool thing I made.
+  
 
   ## Table of Contents
 
@@ -31,15 +31,15 @@
 
   ## Usage
 
-  Always pull
+  
 
   ## License
-
-  This project is licensed under the MIT license.
+  
+  This project is licensed under the APACHE 2.0 license.
 
   ## Contributing
 
-  Always pull
+  
 
   ## Tests
 
@@ -49,5 +49,5 @@
 
   ## Questions
 
-  If you have any questions about this repo, open an issue or contact me directly at [garybergman00@gmail.com](mailto:garybergman00@gmail.com). You can find more of my work at [Gary-Bergman](https://github.com/Gary-Bergman).
+  If you have any questions about this repo, open an issue or contact me directly at [](mailto:). You can find more of my work at [](https://github.com/).
   

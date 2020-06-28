@@ -2,7 +2,8 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  [![GitHub license]](https://img.shields.io/apm/l/pack)
+  ![${ data.license} license](https://img.shields.io/badge/license-${data.license}-blue)
+  // Need another function inside this func
 
   ## Description
 
@@ -36,7 +37,7 @@ function generateMarkdown(data) {
   ${ data.usage}
 
   ## License
-
+  
   This project is licensed under the ${ data.license} license.
 
   ## Contributing
