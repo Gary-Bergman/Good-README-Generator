@@ -62,9 +62,9 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then(function (userAnswers) {
         var markdown = generateMarkdown(userAnswers)
-        fs.writeFile(filename, markdown, function (err) {
+        fs.writeFile(filename, markdown, err => {
             if (err) {
-                return console.log(err);
+                console.log(err);
             }
             console.log("Success! File was written to goodReadMe.md");
         })

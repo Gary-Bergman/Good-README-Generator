@@ -21,6 +21,7 @@ function generateMarkdown(data) {
   *  [Tests](#Tests)
 
   *  [Questions](#Questions)
+  
 
   ## Installation
 
@@ -48,9 +49,15 @@ function generateMarkdown(data) {
 
   ${ data.test}
 
+
   ## Questions
+  <details><summary>
+  </summary>
+  <p>
 
   If you have any questions about this repo, open an issue or contact me directly at [${ data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](https://github.com/${data.username}).
+  </p >
+  </details >
   `;
 }
 
