@@ -27,9 +27,9 @@ function generateMarkdown(data) {
 
   To install necessary dependencies, run the following command:
 
-
-  ${ data.install}
  
+    ${ data.install}
+
 
   ## Usage
 
@@ -37,7 +37,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${ data.license}
+  This project is licensed under the ${ data.license} license.
 
   ## Contributing
 
@@ -49,15 +49,9 @@ function generateMarkdown(data) {
 
   ${ data.test}
 
-
   ## Questions
-  <details><summary>
-  </summary>
-  <p>
 
   If you have any questions about this repo, open an issue or contact me directly at [${ data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](https://github.com/${data.username}).
-  </p >
-  </details >
   `;
 }
 

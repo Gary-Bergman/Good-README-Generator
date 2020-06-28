@@ -8,11 +8,6 @@ var filename = "goodReadMe.md";
 const questions = [
     {
         type: "input",
-        message: "What is your project's title?",
-        name: "title"
-    },
-    {
-        type: "input",
         message: "What is your GitHub username?",
         name: "username"
     },
@@ -23,14 +18,32 @@ const questions = [
     },
     {
         type: "input",
+        message: "What is your project's title?",
+        name: "title"
+    },
+    {
+        type: "input",
         message: "Please enter a brief description of your project",
         name: "description"
+    },
+    {
+        type: "list",
+        message: "What kind of license should your project have?",
+        default: "( Use arrow keys)",
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+        name: "license"
     },
     {
         type: "input",
         message: "What command should be run to install dependencies?",
         default: "npm i",
         name: "install"
+    },
+    {
+        type: "input",
+        message: "How should the user run tests?",
+        default: "npm test",
+        name: "test"
     },
     {
         type: "input",
@@ -41,19 +54,6 @@ const questions = [
         type: "input",
         message: "What does the user need to know about contributing to the repo?",
         name: "contribution"
-    },
-    {
-        type: "input",
-        message: "How should the user run tests?",
-        default: "npm test",
-        name: "test"
-    },
-    {
-        type: "list",
-        message: "How is this project licensed?",
-        default: "( Use arrow keys)",
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
-        name: "license"
     },
 ];
 

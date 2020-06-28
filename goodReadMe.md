@@ -1,10 +1,10 @@
-# dsf
+# Cool Project
 
   [![GitHub license]](https://img.shields.io/apm/l/pack)
 
   ## Description
 
-  sdf
+  Very cool thing I made.
 
   ## Table of Contents
 
@@ -25,35 +25,29 @@
 
   To install necessary dependencies, run the following command:
 
-
-  sd
  
+    npm i
+
 
   ## Usage
 
-  fsd
+  Always pull
 
   ## License
 
-  MIT
+  This project is licensed under the MIT license.
 
   ## Contributing
 
-  fsdf
+  Always pull
 
   ## Tests
 
   To run tests, run the following command:
 
-  sdf
-
+  npm test
 
   ## Questions
-  <details><summary>
-  </summary>
-  <p>
 
-  If you have any questions about this repo, open an issue or contact me directly at [sdf](mailto:sdf). You can find more of my work at [sdf](https://github.com/sdf).
-  </p >
-  </details >
+  If you have any questions about this repo, open an issue or contact me directly at [garybergman00@gmail.com](mailto:garybergman00@gmail.com). You can find more of my work at [Gary-Bergman](https://github.com/Gary-Bergman).
   
