@@ -1,7 +1,7 @@
 # Good README Generator
   
 
-  ## Demo/gif
+  ## GIF
 ![Good README gif](Assets/Images/GoodREADME.gif)
   
   ## Description
