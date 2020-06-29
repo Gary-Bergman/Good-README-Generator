@@ -1,11 +1,9 @@
-# Good Read Me
-
+# Example Project
+  
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
-  // Need another function inside this func
-
   ## Description
 
-  Creates a good read me from user selections in terminal
+  This is just an example.
 
   ## Table of Contents
 
@@ -32,7 +30,7 @@
 
   ## Usage
 
-  Use `node index.js`
+  Run the code `node index.js` in terminal.
 
   ## License
   
@@ -40,7 +38,7 @@
 
   ## Contributing
 
-  Make new pull request
+  Make a pull request.
 
   ## Tests
 

@@ -1,11 +1,30 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  // Write switch statement here for line 8 and write an if/else here for line 45 using variables to plug in at those lines
+  // For license content
+  if (data.license === "None") {
+    var license = "This project did not use a license."
+  } else {
+    var license = `This project is licensed under the ${data.license} license.`
+  };
 
-  return `# ${data.title}
+  var html = `# ${data.title}
+  
+  `;
 
-  ![${ data.license} license](https://img.shields.io/badge/license-${data.license}-blue)
+  // License Badge 
+  if (data.license !== "None") {
+    if (data.license === "MIT") {
+      html += `![${data.license} license](https://img.shields.io/badge/license-${data.license}-blue)`;
+    } else if (data.license === "APACHE 2.0") {
+      html += `![${data.license} license](https://img.shields.io/badge/license-Apache%202.0-blue)`;
+    } else if (data.license === "GPL 3.0") {
+      html += `![${data.license} license](https://img.shields.io/badge/license-GPL%203.0-blue)`;
+    } else if (data.license === "BSD 3") {
+      html += `![${data.license} license](https://img.shields.io/badge/license-BSD%203-blue)`;
+    }
+  }
 
+  html += `
   ## Description
 
   ${data.description}
@@ -39,7 +58,7 @@ function generateMarkdown(data) {
 
   ## License
   
-  This project is licensed under the ${ data.license} license.
+  ${license}
 
   ## Contributing
 
@@ -55,6 +74,7 @@ function generateMarkdown(data) {
 
   If you have any questions about this repo, open an issue or contact me directly at [${ data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](https://github.com/${data.username}).
   `;
+  return html
 }
 
 module.exports = generateMarkdown;
