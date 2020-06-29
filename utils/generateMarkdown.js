@@ -1,9 +1,10 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  // Write switch statement here for line 8 and write an if/else here for line 45 using variables to plug in at those lines
+
   return `# ${data.title}
 
   ![${ data.license} license](https://img.shields.io/badge/license-${data.license}-blue)
-  // Need another function inside this func
 
   ## Description
 

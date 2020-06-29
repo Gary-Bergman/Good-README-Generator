@@ -1,10 +1,11 @@
-# 
+# Good Read Me
 
-  ![APACHE 2.0 license](https://img.shields.io/badge/license-APACHE 2.0-blue)
+  ![MIT license](https://img.shields.io/badge/license-MIT-blue)
+  // Need another function inside this func
 
   ## Description
 
-  
+  Creates a good read me from user selections in terminal
 
   ## Table of Contents
 
@@ -31,15 +32,15 @@
 
   ## Usage
 
-  
+  Use `node index.js`
 
   ## License
   
-  This project is licensed under the APACHE 2.0 license.
+  This project is licensed under the MIT license.
 
   ## Contributing
 
-  
+  Make new pull request
 
   ## Tests
 
@@ -49,5 +50,5 @@
 
   ## Questions
 
-  If you have any questions about this repo, open an issue or contact me directly at [](mailto:). You can find more of my work at [](https://github.com/).
+  If you have any questions about this repo, open an issue or contact me directly at [garybergman00@gmail.com](mailto:garybergman00@gmail.com). You can find more of my work at [Gary-Bergman](https://github.com/Gary-Bergman).
   
