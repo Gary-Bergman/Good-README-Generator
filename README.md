@@ -1,9 +1,12 @@
 # Good README Generator
   
 
-  ## GIF
-![Good README gif](Assets/Images/GoodREADME.gif)
+  ## Demo
+  ![Good README gif](Assets/Images/GoodREADME.gif)
+
   
+  [MP4 Demo](https://drive.google.com/file/d/1E0i1vfdTzfw6iXgEGKDIHQ8UrVZkHj-R/view)
+
   ## Description
 
   This project is a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package. It allows users to enter project information on the command-line, such as project title, license, description, etc., and generates a fully formatted readme file. 

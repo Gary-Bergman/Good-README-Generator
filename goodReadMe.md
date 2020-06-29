@@ -1,9 +1,9 @@
-# 
+# Test
   
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
   ## Description
 
-  
+  Testing testing..
 
   ## Table of Contents
 
@@ -30,7 +30,7 @@
 
   ## Usage
 
-  
+  Run `node index.js`	
 
   ## License
   
@@ -38,7 +38,7 @@
 
   ## Contributing
 
-  
+  Make a pull request.
 
   ## Tests
 
@@ -48,5 +48,5 @@
 
   ## Questions
 
-  If you have any questions about this repo, open an issue or contact me directly at [](mailto:). You can find more of my work at [](https://github.com/).
+  If you have any questions about this repo, open an issue or contact me directly at [Test](mailto:Test). You can find more of my work at [Test](https://github.com/Test).
   
