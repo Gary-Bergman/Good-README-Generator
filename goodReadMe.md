@@ -1,9 +1,9 @@
-# Test
+# Employee Summary
   
-  ![MIT license](https://img.shields.io/badge/license-MIT-blue)
+  
   ## Description
 
-  Testing testing..
+  You will build a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. This assignment must also pass all unit tests. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. Following the common templates for user stories, we can frame this challenge as follows:
 
   ## Table of Contents
 
@@ -30,15 +30,15 @@
 
   ## Usage
 
-  Run `node index.js`	
+  
 
   ## License
   
-  This project is licensed under the MIT license.
+  This project did not use a license.
 
   ## Contributing
 
-  Make a pull request.
+  
 
   ## Tests
 
@@ -48,5 +48,5 @@
 
   ## Questions
 
-  If you have any questions about this repo, open an issue or contact me directly at [Test](mailto:Test). You can find more of my work at [Test](https://github.com/Test).
+  If you have any questions about this repo, open an issue or contact me directly at [garybergman00@gmail.com](mailto:garybergman00@gmail.com). You can find more of my work at [Gary-Bergman](https://github.com/Gary-Bergman).
   
