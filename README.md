@@ -1,7 +1,9 @@
 # Good README Generator
   
 
-  ## Demo
+  ## Demo/Link
+  
+
   ![Good README gif](Assets/Images/GoodREADME.gif)
 
   
@@ -12,6 +14,10 @@
   This project is a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package. It allows users to enter project information on the command-line, such as project title, license, description, etc., and generates a fully formatted readme file. 
 
   ## Table of Contents
+
+  *  [Demo/Link](#Demo/Link)
+
+  *  [Description](#Description)
 
   *  [Installation](#Installation)
 
@@ -50,7 +56,7 @@
 
   To run tests, run the following command:
 
-     npm test
+     npm run test
 
   ## Questions
 
